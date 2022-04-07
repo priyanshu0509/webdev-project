@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+    opacity: 0.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image:url(./images/web_bg.jpeg);
+    align-content: center;
+}
+
+.logo {
+    float: right;
+    text-align: right;
+}
+#ieee-logo{
+    height:5rem;
+    margin:20px 20px;
+}
+.recruitment-page{
+    align-content:center;
+    /* background-color:rebeccapurple; */
+    height:100vh;
+    width:auto;
+    height:100vh;
+    line-height: 2rem;
+}
+.recruitments-results{
+    border: 1px solid white;
+}
+.recruitments{
+    /* color:#c38d7c; */
+    color:aliceblue;
+    top:13rem;
+    left:29rem;
+    position: absolute;
+    font-size:5rem;
+    font-family: 'Cormorant', serif;
+    /* border: 1px solid white; */
+
+}
+#result{
+    font-style: oblique;
+    /* background-color:linear-gradient(45deg,red,yellow,lightblue 50%); */
+    color:lightseagreen;
+    top:20rem;
+    left:38rem;
+    align-content:center;
+    /* font-family: 'Merriweather', serif; */
+}
+.recruitments-form{
+    position:absolute;
+    top: 200px;
+    left:29rem;
+    margin-top: 13rem;
+    line-height:2rem;
+}
+#reg{
+    font-size:25px;
+    border-radius: 12px;
+    width: 23rem;
+    height: 66px;
+    text-align:center;
+    color: green;
+    font-weight: 5rem;
+    position: relative;
+    left:5rem;
+    background:linear-gradient(orange,lightblue,WHITE);
+
+}
+#submit-button{
+    position: absolute;
+    font-size:25px;
+    border-radius: 12px;
+    width: 15rem;
+    height: 62px;
+    text-align:center;
+    top:93px;
+    left:9rem;
+    background:linear-gradient(45deg,rgba(8, 154, 221, 0.774),rgb(241, 212, 247) 50%,transparent);
+    /* color: burlywood; */
+    /* font-weight: 5rem; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:indigo;
+}
